@@ -1,0 +1,2 @@
+[localhost]
+dhruv ansible_connection=local
