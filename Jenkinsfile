@@ -27,7 +27,7 @@ pipeline {
         stage('Push Docker Image') {
             steps {
                 script{
-                    docker.withRegistry('','docker-jenkins'){
+                    docker.withRegistry('','calc_docker'){
                         imageName.push()
                     }
                 }
