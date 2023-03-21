@@ -12,4 +12,4 @@
       shell: docker pull docker.io/skchauhan07/calc-dockerrepo
       
     - name: running container
-      shell: docker run -it -d skchauhan07/calc-dockerrepo
+      shell: docker run -it -d skchauhan07/calc-dockerrepo 
