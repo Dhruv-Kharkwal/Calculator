@@ -6,7 +6,8 @@ pipeline {
     stages {
         stage('Git pull') {
             steps {
-                git 'https://github.com/Dhruv-Kharkwal/Calculator.git'
+                sh 'git clone https://github.com/Dhruv-Kharkwal/Calculator.git'
+                sh 'cd Calculator'
             }
         }
         stage('Maven Build') {
