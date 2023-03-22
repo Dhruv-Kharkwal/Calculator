@@ -9,7 +9,7 @@
         state: started
         
     - name: pull docker image
-      shell: docker pull docker.io/skchauhan07/calc-dockerrepo
+      shell: docker pull docker.io/dhruvkharkwal/spe_miniproject
       
     - name: running container
-      shell: docker run -it -d skchauhan07/calc-dockerrepo
+      shell: docker run -it -d dhruvkharkwal/spe_miniproject
